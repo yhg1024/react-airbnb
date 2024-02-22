@@ -1,0 +1,1 @@
+import dummy from './main/data.json'

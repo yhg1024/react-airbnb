@@ -1,0 +1,283 @@
+* {
+  font-family: 'Circular', '-apple-system', 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+}
+
+.headerWrap {
+  border-bottom: 1px solid #ddd;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+h1 {
+  flex: 1 0 140px;
+}
+
+.Slogo {
+  display: none;
+}
+
+.logo svg {
+  color: #ff385c;
+}
+
+.Bwrap {
+  padding: 0 24px;
+}
+
+.SearchBar {
+  padding: 7px;
+  border: 1px solid #ddd;
+  border-radius: 26px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+  align-items: center;
+}
+
+.SearchBar span {
+  width: 1px;
+  height: 24px;
+  background-color: #ddd;
+  flex: 0 0 1px;
+}
+
+
+.SearchBar>button {
+  font-weight: bolder;
+  font-size: 14px;
+  vertical-align: middle;
+  padding: 0 16px 0 16px;
+}
+
+
+.SearchBar :nth-child(5) {
+  font-weight: 300;
+  color: #717171;
+  border: none;
+}
+
+.SearchBar :nth-child(7) {
+  border: none;
+  padding: 0;
+}
+
+.SearchBar .glass {
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-color: #ff385c;
+  border-radius: 50%;
+}
+
+.SearchBar .glass img svg {
+  color: #fff;
+  width: 12px;
+  height: 12px;
+}
+
+
+.user {
+  flex: 1 0 140px;
+  justify-content: right;
+}
+
+.user .host {
+  font-size: 14px;
+}
+
+.user .host,
+.user .earth {
+  font-weight: bolder;
+  padding: 12px;
+  border-radius: 22px;
+}
+
+.earth {
+  margin: 0 5px 0 5px;
+}
+
+.earth img {
+  width: 16px;
+  height: 16px;
+}
+
+.host:hover,
+.earth:hover {
+  background-color: rgb(250, 250, 250);
+}
+
+
+
+.login {
+  padding-left: 7px;
+  border: 1px solid #ddd;
+  border-radius: 21px;
+}
+
+.login:hover {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 13%), 0 4px 12px rgb(0 0 0 / 10%);
+}
+
+.login>button {
+  align-items: center;
+}
+
+.login button:nth-child(1) img {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.login button:nth-child(2) img {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 89px;
+  position: fixed;
+  bottom: 0px;
+  padding: 0 80px;
+  border-top: 1px solid #ddd;
+  align-items: baseline;
+  background-color: #fff;
+}
+
+
+footer .container {
+  justify-content: space-between;
+}
+
+footer .container img {
+  width: 12px;
+  height: 12px;
+}
+
+.ftTop {
+  padding: 13px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ftLeft {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.ftBottom {
+  border-top: 1px solid #ddd;
+  padding: 8px 0;
+  font-size: 10px;
+  line-height: 12px;
+  color: #717171;
+  letter-spacing: 0.02em;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+
+
+/* media query */
+@media screen and (max-width:744px) {
+
+  h1,
+  .user {
+    display: none;
+  }
+
+  .headerWrap {
+    padding: 14px 24px 0 24px;
+  }
+
+  .headerWrap header {
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+  }
+
+  .headerWrap .SearchBar {
+    display: block;
+    border: 0.5px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
+  }
+
+  .SearchBar button {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0;
+  }
+
+  .SearchBar>span {
+    width: 0;
+    height: 0;
+  }
+
+  .SearchBar .glass {
+    background-color: #fff;
+    justify-content: left;
+  }
+
+  .SearchBar .glass img svg {
+    color: black;
+  }
+}
+
+@media screen and (min-width:744px) and (max-width:992px) {
+  .headerWrap header {
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+  }
+
+  h1 {
+    flex: 0 0 0;
+  }
+
+
+  .logo {
+    display: none;
+  }
+
+  .Slogo {
+    display: block;
+    flex: 0 0 0;
+  }
+
+  footer {
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+    height: auto;
+  }
+
+  .ftLeft {
+    width: 45%;
+  }
+
+  .ftRight {
+    width: 55%;
+    align-items: end;
+  }
+
+  .ftRight button {
+    font-weight: 600;
+  }
+}
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {}
+
+@media screen and (min-width:1200px) {}

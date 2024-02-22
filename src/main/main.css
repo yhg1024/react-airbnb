@@ -1,0 +1,296 @@
+header .SearchBar button:nth-child(6) {
+    display: none;
+    /* background-color: none; */
+}
+
+main {
+    padding: 20px 80px;
+}
+
+.content Link {
+    position: absolute;
+}
+
+.Swrap {
+    padding-top: 20px;
+}
+
+.style {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    position: absolute;
+}
+
+.style nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.style .button {
+    width: 108%;
+}
+
+.button .left,
+.button .right {
+    width: 28px;
+    height: 28px;
+    border: 0.5px solid rgb(0 0 0 / 0.3);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #fff;
+}
+
+.button .left {
+    left: 0;
+    float: left;
+    display: none;
+}
+
+.right {
+    float: right;
+    right: 0px;
+}
+
+
+.style button {
+    display: grid;
+    gap: 8px;
+    float: left;
+    justify-content: space-between;
+}
+
+.style .button img {
+    width: 12px;
+    height: 12px;
+}
+
+.style .button .right::after {
+    background-image: linear-gradient(to left, white, rgb(255 255 255 / 0));
+    content: '';
+    display: block;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 40px;
+    z-index: -1;
+}
+
+.style nav {
+    position: absolute;
+}
+
+.style nav button img {
+    width: 24px;
+    filter: opacity(0.4) drop-shadow(0 0 0 #717171);
+}
+
+.style button div {
+    font-size: 12px;
+    color: #717171;
+}
+
+.Swrap .fillter {
+    width: 80px;
+    height: 48px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.Swrap .fillter img {
+    display: block;
+    height: 14px;
+    width: 14px;
+}
+
+.Home {
+    margin-top: 80px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+.content .picture {
+    width: 320px;
+    height: 305px;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.content .picture .Pbox {
+    position: absolute;
+    flex-flow: column;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    padding: 12px;
+    flex: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+.content .picture img {
+    border-radius: 12px;
+    width: 320px;
+    height: 305px;
+    object-fit: cover;
+    display: grid;
+    /* background: linear-gradient(180deg, transparent 80%, rgba(0, 0, 0, 0.25)); */
+}
+
+.content .picture .hart {
+    width: 28px;
+    height: 28px;
+    right: 0;
+    justify-self: flex-end;
+}
+
+.content .picture .hart img {
+    width: 28px;
+    height: 28px;
+    display: block;
+    fill: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    stroke: white;
+    stroke-width: 2;
+}
+
+.content .picture .Pbox .button {
+    visibility: hidden;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(50%);
+}
+
+.content .picture .button img {
+    width: 12px;
+    height: 12px;
+}
+
+.content .picture:hover .button .right {
+    visibility: visible;
+}
+
+
+
+.picture .Pbox .button div {
+    display: grid;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+.picture .Pbox .dot {
+    justify-content: center;
+    align-items: flex-end;
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+
+.picture .Pbox .dot div {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+    margin-left: 2.5px;
+    margin-right: 2px;
+}
+
+
+
+
+
+.content article {
+    font-size: 15px;
+    line-height: 19px;
+    position: relative;
+    color: #717171;
+}
+
+.content .textBox {
+    float: left;
+    text-align: left;
+}
+
+.content .textBox div {
+    width: 320px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+}
+
+.content .textBox .title {
+    width: 270px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    font-weight: 600;
+}
+
+.content article span {
+    line-height: 19px;
+    color: black;
+}
+
+.content article .price {
+    margin-top: 6px;
+}
+
+.content article .star {
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+
+.content article .star img {
+    width: 12px;
+    height: 12px;
+    color: black;
+}
+
+
+.content .star .score {
+    margin-left: 4px;
+    font-weight: 300;
+}
+
+@media screen and (max-width:744px) {
+    main {
+        padding-inline-start: 40px;
+        padding-inline-end: 40px;
+    }
+}
+
+@media screen and (min-width:744px) and (max-width:992px) {
+    main {
+        padding-inline-start: 40px;
+        padding-inline-end: 40px;
+    }
+
+    .Home {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {}
+
+@media screen and (min-width:1200px) {}

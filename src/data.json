@@ -1,0 +1,194 @@
+{
+    "navItem": [
+        {
+            "id": "1",
+            "image": "https://a0.muscache.com/pictures/50861fca-582c-4bcc-89d3-857fb7ca6528.jpg",
+            "name": "디자인"
+        },
+        {
+            "id": "2",
+            "image": "https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg",
+            "name": "섬"
+        },
+        {
+            "id": "3",
+            "image": "https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg",
+            "name": "해변 근처"
+        },
+        {
+            "id": "4",
+            "image": "https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg",
+            "name": "캐슬"
+        },
+        {
+            "id": "5",
+            "image": "https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg",
+            "name": "기상천외한 숙소"
+        },
+        {
+            "id": "6",
+            "image": "https://a0.muscache.com/pictures/35919456-df89-4024-ad50-5fcb7a472df9.jpg",
+            "name": "초소형 주택"
+        },
+        {
+            "id": "7",
+            "image": "https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg",
+            "name": "통나무집"
+        },
+        {
+            "id": "8",
+            "image": "https://a0.muscache.com/pictures/31c1d523-cc46-45b3-957a-da76c30c85f9.jpg",
+            "name": "캠핑카"
+        },
+        {
+            "id": "9",
+            "image": "https://a0.muscache.com/pictures/1d477273-96d6-4819-9bda-9085f809dad3.jpg",
+            "name": "A자형 주택"
+        },
+        {
+            "id": "10",
+            "image": "https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg",
+            "name": "호숫가"
+        },
+        {
+            "id": "11",
+            "image": "https://a0.muscache.com/pictures/8b44f770-7156-4c7b-b4d3-d92549c8652f.jpg",
+            "name": "북극"
+        },
+        {
+            "id": "12",
+            "image": "https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg",
+            "name": "멋진 수영장"
+        },
+        {
+            "id": "13",
+            "image": "https://a0.muscache.com/pictures/a6dd2bae-5fd0-4b28-b123-206783b5de1d.jpg",
+            "name": "사막"
+        },
+        {
+            "id": "14",
+            "image": "https://a0.muscache.com/pictures/5cdb8451-8f75-4c5f-a17d-33ee228e3db8.jpg",
+            "name": "풍차"
+        }
+    ],
+    "BoxItem": [
+        {
+            "room": "detailA",
+            "image": "https://a0.muscache.com/im/pictures/13ee20e4-8255-4e9b-9252-cf5146fc4599.jpg?im_w=720",
+            "title": "Calaca,필리핀",
+            "introduce": "Esquire에 소개",
+            "date": "7월 24일~29일",
+            "price": "₩692,691",
+            "score": "4.91"
+        },
+        {
+            "room": "detailB",
+            "image": "https://a0.muscache.com/im/pictures/monet/Luxury-20470768/original/a85ec930-b603-4825-b2a7-9f658a6a0e01?im_w=720",
+            "title": "Koh Samui, 태국",
+            "introduce": "디자인: Gary Fell, GFAB Architects",
+            "date": "10월 8일~13일",
+            "price": "₩5,810,203",
+            "score": "NEW"
+        },
+        {
+            "room": "detailC",
+            "image": "https://a0.muscache.com/im/pictures/miso/Hosting-39113140/original/b133420b-e520-426a-ba44-0949dc2ab4ba.jpeg?im_w=720",
+            "title": "Balamban, 필리핀",
+            "introduce": "Forbes에 소개",
+            "date": "11월 5일~10일",
+            "price": "₩362,156",
+            "score": "4.92"
+        },
+        {
+            "room": "detailD",
+            "image": "https://a0.muscache.com/im/pictures/monet/Luxury-54351340/original/78e9a3d8-6f36-4b1f-8f67-db331a4c2ca2?im_w=720",
+            "title": "코사무이(Ko Samui), 태국",
+            "introduce": "디자인: Fractal Architecture",
+            "date": "10월 5일~11일",
+            "price": "₩1,871,364",
+            "score": "NEW"
+        },
+        {
+            "room": "detailE",
+            "image": "https://a0.muscache.com/im/pictures/14152ff7-28fa-48cc-9c90-ac787fb5bb6b.jpg?im_w=720",
+            "title": "코사무이(Ko Samui), 태국",
+            "introduce": "디자인:Marc Gerritsen",
+            "date": "4월 30일~5월5일",
+            "price": "₩274,872",
+            "score": "4.9"
+        },
+        {
+            "room": "detailF",
+            "image": "https://a0.muscache.com/im/pictures/ffb001b7-92a3-413f-ae51-e5b2c1df5580.jpg?im_w=720",
+            "title": "Calaca,필리핀",
+            "introduce": "Esquire에 소개",
+            "date": "7월 9일~14일",
+            "price": "₩351,013",
+            "score": "4.95"
+        },
+        {
+            "room": "detailG",
+            "image": "https://a0.muscache.com/im/pictures/miso/Hosting-50838196/original/2098cf48-0707-43c6-8d22-d78351190e1d.jpeg?im_w=720",
+            "title": "Jeju-si, 한국",
+            "introduce": "466km 거리",
+            "date": "11월 1일~6일",
+            "price": "₩721,224",
+            "score": "4.98"
+        },
+        {
+            "room": "detailH",
+            "image": "https://a0.muscache.com/im/pictures/2a1724ca-c902-4c82-b64a-215c2fd1e414.jpg?im_w=720",
+            "title": "코사무이(Ko Samui), 태국",
+            "introduce": "디자인: James Atkinson & David McCormick, M-System",
+            "date": "10월 5일~11일",
+            "price": "₩1,871,364",
+            "score": "4.92"
+        },
+        {
+            "room": "detailI",
+            "image": "https://a0.muscache.com/im/pictures/f2133b89-b041-49a3-99bc-20b595dcfa62.jpg?im_w=720",
+            "title": "Tambon Thep Krasatti, 태국",
+            "introduce": "디자인: Fredo Taffin",
+            "date": "10월 19일~26일",
+            "price": "₩21,513,386",
+            "score": "NEW"
+        },
+        {
+            "room": "detailJ",
+            "image": "https://a0.muscache.com/im/pictures/3325f8f2-bf5c-48cc-948a-5a096ce5c4a8.jpg?im_w=720",
+            "title": "Kamala, 태국",
+            "introduce": "4,379km 거리",
+            "date": "10월 22일~27일",
+            "price": "₩163,058",
+            "score": "4.64"
+        },
+        {
+            "room": "detailK",
+            "image": "https://a0.muscache.com/im/pictures/fb5e5bf9-8478-4824-81e7-b267d396a793.jpg?im_w=720",
+            "title": "Cape Yamu, 태국",
+            "introduce": "디자인: Philippe Starck & Jean-Michel Gathy",
+            "date": "12월 13일~18일",
+            "price": "₩3,376,168",
+            "score": "NEW"
+        },
+        {
+            "room": "detailL",
+            "image": "https://a0.muscache.com/im/pictures/e11b4e11-ba7a-4568-8ce4-912028c791e6.jpg?im_w=720",
+            "title": "Pungnamdong 3(sam)-ga, Wansan-gu, Jeonju, 한국",
+            "introduce": "196km 거리",
+            "date": "11월 20일~25일",
+            "price": "₩319,530",
+            "score": "4.92"
+        }
+    ],
+    "detail": [
+        {
+            "room": "detailA",
+            "title": "Cabin 1 - Mountainside luxury cabin w Batulao view"
+        },
+        {
+            "room": "detailB",
+            "title": "Samujana Twenty-Four"
+        }
+    ]
+}

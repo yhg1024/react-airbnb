@@ -1,0 +1,535 @@
+import Button from '../Button';
+import keyboard from '../svg/keyboard.svg'
+
+function When() {
+    return (
+        <div className="when">
+            <section>
+                <h3>Calaca에서 2박</h3>
+                <div className="date">
+                    2023년 7월 11일 - 2023년 7월 13일
+                </div>
+            </section>
+
+
+            <div className="flex">
+                <div>
+                    <div>
+                        <div className="week">
+                            <ul className="thisM flex">
+                                <li className="_92xroi" style="width: 44px;">일</li>
+                                <li className="_92xroi" style="width: 44px;">월</li>
+                                <li className="_92xroi" style="width: 44px;">화</li>
+                                <li className="_92xroi" style="width: 44px;">수</li>
+                                <li className="_92xroi" style="width: 44px;">목</li>
+                                <li className="_92xroi" style="width: 44px;">금</li>
+                                <li className="_92xroi" style="width: 44px;">토</li>
+                            </ul>
+
+                            <ul className="nextM flex">
+                                <li className="_92xroi" style="width: 44px;">일</li>
+                                <li className="_92xroi" style="width: 44px;">월</li>
+                                <li className="_92xroi" style="width: 44px;">화</li>
+                                <li className="_92xroi" style="width: 44px;">수</li>
+                                <li className="_92xroi" style="width: 44px;">목</li>
+                                <li className="_92xroi" style="width: 44px;">금</li>
+                                <li className="_92xroi" style="width: 44px;">토</li>
+                            </ul>
+                        </div>
+                        <Button></Button>
+                    </div>
+                </div>
+
+
+                <div className="calendar flex">
+                    <div className="month">
+                        <h3>
+                            2023년
+                            6월</h3>
+                        <table className="day">
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <div>1</div>
+                                    </td>
+                                    <td>
+                                        <div>2</div>
+                                    </td>
+                                    <td>
+                                        <div>3</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>4</div>
+                                    </td>
+                                    <td>
+                                        <div>5</div>
+                                    </td>
+                                    <td>
+                                        <div>6</div>
+                                    </td>
+                                    <td>
+                                        <div>7</div>
+                                    </td>
+                                    <td>
+                                        <div>8</div>
+                                    </td>
+                                    <td>
+                                        <div>9</div>
+                                    </td>
+                                    <td>
+                                        <div>10</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>11</div>
+                                    </td>
+                                    <td>
+                                        <div>12</div>
+                                    </td>
+                                    <td>
+                                        <div>13</div>
+                                    </td>
+                                    <td>
+                                        <div>14</div>
+                                    </td>
+                                    <td>
+                                        <div>15</div>
+                                    </td>
+                                    <td>
+                                        <div>16</div>
+                                    </td>
+                                    <td>
+                                        <div>17</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>18</div>
+                                    </td>
+                                    <td>
+                                        <div>19</div>
+                                    </td>
+                                    <td>
+                                        <div>20</div>
+                                    </td>
+                                    <td>
+                                        <div>21</div>
+                                    </td>
+                                    <td>
+                                        <div>23</div>
+                                    </td>
+                                    <td>
+                                        <div>24</div>
+                                    </td>
+                                    <td>
+                                        <div>25</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>26</div>
+                                    </td>
+                                    <td>
+                                        <div>27</div>
+                                    </td>
+                                    <td>
+                                        <div>28</div>
+                                    </td>
+                                    <td>
+                                        <div>29</div>
+                                    </td>
+                                    <td>
+                                        <div>30</div>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div className="month">
+                        <h3>
+                            2023년
+                            7월</h3>
+                        <table className="day">
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                        <div>1</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>2</div>
+                                    </td>
+                                    <td>
+                                        <div>3</div>
+                                    </td>
+                                    <td>
+                                        <div>4</div>
+                                    </td>
+                                    <td>
+                                        <div>5</div>
+                                    </td>
+                                    <td>
+                                        <div>6</div>
+                                    </td>
+                                    <td>
+                                        <div>7</div>
+                                    </td>
+                                    <td>
+                                        <div>8</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>9</div>
+                                    </td>
+                                    <td>
+                                        <div>10</div>
+                                    </td>
+                                    <td>
+                                        <div>11</div>
+                                    </td>
+                                    <td>
+                                        <div>12</div>
+                                    </td>
+                                    <td>
+                                        <div>13</div>
+                                    </td>
+                                    <td>
+                                        <div>14</div>
+                                    </td>
+                                    <td>
+                                        <div>15</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>16</div>
+                                    </td>
+                                    <td>
+                                        <div>17</div>
+                                    </td>
+                                    <td>
+                                        <div>18</div>
+                                    </td>
+                                    <td>
+                                        <div>19</div>
+                                    </td>
+                                    <td>
+                                        <div>20</div>
+                                    </td>
+                                    <td>
+                                        <div>21</div>
+                                    </td>
+                                    <td>
+                                        <div>22</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>23</div>
+                                    </td>
+                                    <td>
+                                        <div>24</div>
+                                    </td>
+                                    <td>
+                                        <div>25</div>
+                                    </td>
+                                    <td>
+                                        <div>26</div>
+                                    </td>
+                                    <td>
+                                        <div>27</div>
+                                    </td>
+                                    <td>
+                                        <div>28</div>
+                                    </td>
+                                    <td>
+                                        <div>29</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>30</div>
+                                    </td>
+                                    <td>
+                                        <div>31</div>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div className="month hidden">
+                        <h3>
+                            2023년
+                            8월</h3>
+                        <table className="day">
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <div>1</div>
+                                    </td>
+                                    <td>
+                                        <div>2</div>
+                                    </td>
+                                    <td>
+                                        <div>3</div>
+                                    </td>
+                                    <td>
+                                        <div>4</div>
+                                    </td>
+                                    <td>
+                                        <div>5</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>6</div>
+                                    </td>
+                                    <td>
+                                        <div>7</div>
+                                    </td>
+                                    <td>
+                                        <div>8</div>
+                                    </td>
+                                    <td>
+                                        <div>9</div>
+                                    </td>
+                                    <td>
+                                        <div>10</div>
+                                    </td>
+                                    <td>
+                                        <div>11</div>
+                                    </td>
+                                    <td>
+                                        <div>12</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>13</div>
+                                    </td>
+                                    <td>
+                                        <div>14</div>
+                                    </td>
+                                    <td>
+                                        <div>15</div>
+                                    </td>
+                                    <td>
+                                        <div>16</div>
+                                    </td>
+                                    <td>
+                                        <div>17</div>
+                                    </td>
+                                    <td>
+                                        <div>18</div>
+                                    </td>
+                                    <td>
+                                        <div>19</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>20</div>
+                                    </td>
+                                    <td>
+                                        <div>21</div>
+                                    </td>
+                                    <td>
+                                        <div>22</div>
+                                    </td>
+                                    <td>
+                                        <div>23</div>
+                                    </td>
+                                    <td>
+                                        <div>24</div>
+                                    </td>
+                                    <td>
+                                        <div>25</div>
+                                    </td>
+                                    <td>
+                                        <div>26</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>27</div>
+                                    </td>
+                                    <td>
+                                        <div>28</div>
+                                    </td>
+                                    <td>
+                                        <div>29</div>
+                                    </td>
+                                    <td>
+                                        <div>30</div>
+                                    </td>
+                                    <td>
+                                        <div>31</div>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div className="month hidden">
+                        <h3>
+                            2023년
+                            9월</h3>
+                        <table className="day">
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                        <div>1</div>
+                                    </td>
+                                    <td>
+                                        <div>2</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>3</div>
+                                    </td>
+                                    <td>
+                                        <div>4</div>
+                                    </td>
+                                    <td>
+                                        <div>5</div>
+                                    </td>
+                                    <td>
+                                        <div>6</div>
+                                    </td>
+                                    <td>
+                                        <div>7</div>
+                                    </td>
+                                    <td>
+                                        <div>8</div>
+                                    </td>
+                                    <td>
+                                        <div>9</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>10</div>
+                                    </td>
+                                    <td>
+                                        <div>11</div>
+                                    </td>
+                                    <td>
+                                        <div>12</div>
+                                    </td>
+                                    <td>
+                                        <div>13</div>
+                                    </td>
+                                    <td>
+                                        <div>14</div>
+                                    </td>
+                                    <td>
+                                        <div>15</div>
+                                    </td>
+                                    <td>
+                                        <div>16</div>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>17</div>
+                                    </td>
+                                    <td>
+                                        <div>18</div>
+                                    </td>
+                                    <td>
+                                        <div>19</div>
+                                    </td>
+                                    <td>
+                                        <div>20</div>
+                                    </td>
+                                    <td>
+                                        <div>21</div>
+                                    </td>
+                                    <td>
+                                        <div>23</div>
+                                    </td>
+                                    <td>
+                                        <div>24</div>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div>25</div>
+                                    </td>
+                                    <td>
+                                        <div>26</div>
+                                    </td>
+                                    <td>
+                                        <div>27</div>
+                                    </td>
+                                    <td>
+                                        <div>28</div>
+                                    </td>
+                                    <td>
+                                        <div>29</div>
+                                    </td>
+                                    <td>
+                                        <div>30</div>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div className="flex">
+                <div>
+                    <button aria-label="키보드 단축키 창 열기">
+                        <span>
+                            <img src={keyboard} />
+                        </span>
+                    </button>
+                </div>
+                <div>
+                    <button>날짜 지우기</button>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default When;
